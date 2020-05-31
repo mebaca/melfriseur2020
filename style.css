@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(235,235,235);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+p {
+    font-size: 30px;
+    text-align: center;
+    margin: 50px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h3 {
+    text-align: center;
+}
+
+#navfix {
+    position: fixed;
+    width: 100%;
+}
+
+#headerpic {
+    width: 100%;
+}
+
+#salonpic {
+    width: 100%;
+    margin-top: 100px;
+}
+
+#teampic {
+    width: 500px;
+    display: flex;
+}
+
+#footer {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 200px;
+    font-size: 20px;
+}
+
+.placeholderpic {
+    background-color: grey;
+    width: 100px;
+    height: 300px;
+    margin: 50px;
+}
+
+.servicetab {
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.contact {
+    font-a-size: 20px;
+}
