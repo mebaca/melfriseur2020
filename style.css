@@ -4,9 +4,9 @@ body {
 }
 
 p {
-    font-size: 30px;
+    font-size: 24px;
     text-align: center;
-    margin: 50px;
+    margin: 100px;
 }
 
 h1 {
@@ -21,6 +21,7 @@ h3 {
 #navfix {
     position: fixed;
     width: 100%;
+    z-index: 10;
 }
 
 #headerpic {
@@ -35,28 +36,35 @@ h3 {
 #teampic {
     width: 500px;
     display: flex;
+    margin: auto;
+}
+
 }
 
 #footer {
     width: 100%;
     margin: 0 auto;
-    margin-top: 200px;
     font-size: 20px;
 }
 
 .placeholderpic {
-    background-color: grey;
-    width: 100px;
-    height: 300px;
-    margin: 50px;
+    width: 50%;
+    margin-left: 80px;
 }
 
 .servicetab {
     width: 80%;
     margin: 0 auto;
+    margin-bottom: 250px;
 
 }
 
 .contact {
     font-a-size: 20px;
+}
+
+.schriftfoot {
+    font-size: 20px;
+    text-align: center;
+    margin: 50px;
 }
